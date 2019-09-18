@@ -1,0 +1,12 @@
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Tool\bin\Debug\netcoreapp2.2\PermissionDesign.Tool.deps.json
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Tool\bin\Debug\netcoreapp2.2\PermissionDesign.Tool.dll
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Tool\bin\Debug\netcoreapp2.2\PermissionDesign.Tool.pdb
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Tool\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Http.dll
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Tool\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Http.xml
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Tool\obj\Debug\netcoreapp2.2\PermissionDesign.Tool.csprojAssemblyReference.cache
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Tool\obj\Debug\netcoreapp2.2\PermissionDesign.Tool.csproj.CoreCompileInputs.cache
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Tool\obj\Debug\netcoreapp2.2\PermissionDesign.Tool.AssemblyInfoInputs.cache
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Tool\obj\Debug\netcoreapp2.2\PermissionDesign.Tool.AssemblyInfo.cs
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Tool\obj\Debug\netcoreapp2.2\PermissionDesign.Tool.csproj.CopyComplete
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Tool\obj\Debug\netcoreapp2.2\PermissionDesign.Tool.dll
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Tool\obj\Debug\netcoreapp2.2\PermissionDesign.Tool.pdb

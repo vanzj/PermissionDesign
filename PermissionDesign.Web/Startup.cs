@@ -8,8 +8,11 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using PermissionDesign.DAL;
+
 namespace PermissionDesign.Web
 {
     public class Startup
@@ -29,6 +32,9 @@ namespace PermissionDesign.Web
                 options.CheckConsentNeeded = context => false;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
+            services.AddDbContext<Db>(options =>
+              options.UseMySQL(Configuration.GetConnectionString("MySqlConnection")));//添加Mysql支持
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 

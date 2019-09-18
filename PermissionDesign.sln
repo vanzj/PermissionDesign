@@ -1,15 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27924.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PermissionDesign.Web", "PermissionDesign.Web\PermissionDesign.Web.csproj", "{7C3CF65E-5582-4A7B-BA31-BBED4E2D2DC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PermissionDesign.Model", "PermissionDesign.Model\PermissionDesign.Model.csproj", "{B1768B02-0AAA-42DD-AAC1-D62A8E717FC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PermissionDesign.Model", "PermissionDesign.Model\PermissionDesign.Model.csproj", "{B1768B02-0AAA-42DD-AAC1-D62A8E717FC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PermissionDesign.Service", "PermissionDesign.Service\PermissionDesign.Service.csproj", "{CD6AC61B-78F2-44AA-86EF-8800F32619FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PermissionDesign.Service", "PermissionDesign.Service\PermissionDesign.Service.csproj", "{CD6AC61B-78F2-44AA-86EF-8800F32619FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PermissionDesign.Tool", "PermissionDesign.Tool\PermissionDesign.Tool.csproj", "{DEC8665E-CBC5-4C5A-AFD8-076723EA5B53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PermissionDesign.Tool", "PermissionDesign.Tool\PermissionDesign.Tool.csproj", "{DEC8665E-CBC5-4C5A-AFD8-076723EA5B53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PermissionDesign.DAL", "PermissionDesign.DAL\PermissionDesign.DAL.csproj", "{2DD58D89-25B3-4799-99A8-A316E584E4F3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{DEC8665E-CBC5-4C5A-AFD8-076723EA5B53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DEC8665E-CBC5-4C5A-AFD8-076723EA5B53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DEC8665E-CBC5-4C5A-AFD8-076723EA5B53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DD58D89-25B3-4799-99A8-A316E584E4F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DD58D89-25B3-4799-99A8-A316E584E4F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DD58D89-25B3-4799-99A8-A316E584E4F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DD58D89-25B3-4799-99A8-A316E584E4F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -90,3 +90,11 @@ F:\teaching\权限设计\Project\PermissionDesign\PermissionDesign.Web\bin\Debug
 F:\teaching\权限设计\Project\PermissionDesign\PermissionDesign.Web\bin\Debug\netcoreapp2.1\PermissionDesign.Tool.pdb
 F:\teaching\权限设计\Project\PermissionDesign\PermissionDesign.Web\obj\Debug\netcoreapp2.1\PermissionDesign.Web.Views.pdb
 F:\teaching\权限设计\Project\PermissionDesign\PermissionDesign.Web\obj\Debug\netcoreapp2.1\PermissionDesign.Web.csproj.CopyComplete
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Web\obj\Debug\netcoreapp2.1\PermissionDesign.Web.csprojAssemblyReference.cache
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Web\obj\Debug\netcoreapp2.1\PermissionDesign.Web.csproj.CoreCompileInputs.cache
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Web\obj\Debug\netcoreapp2.1\PermissionDesign.Web.RazorAssemblyInfo.cache
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Web\obj\Debug\netcoreapp2.1\PermissionDesign.Web.RazorAssemblyInfo.cs
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Web\obj\Debug\netcoreapp2.1\PermissionDesign.Web.AssemblyInfoInputs.cache
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Web\obj\Debug\netcoreapp2.1\PermissionDesign.Web.AssemblyInfo.cs
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Web\obj\Debug\netcoreapp2.1\PermissionDesign.Web.dll
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Web\obj\Debug\netcoreapp2.1\PermissionDesign.Web.pdb

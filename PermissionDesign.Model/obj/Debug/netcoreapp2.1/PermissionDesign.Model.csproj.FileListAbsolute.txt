@@ -15,3 +15,12 @@ F:\teaching\权限设计\Project\PermissionDesign\PermissionDesign.Model\obj\Deb
 F:\teaching\权限设计\Project\PermissionDesign\PermissionDesign.Model\obj\Debug\netcoreapp2.1\PermissionDesign.Model.AssemblyInfo.cs
 F:\teaching\权限设计\Project\PermissionDesign\PermissionDesign.Model\obj\Debug\netcoreapp2.1\PermissionDesign.Model.dll
 F:\teaching\权限设计\Project\PermissionDesign\PermissionDesign.Model\obj\Debug\netcoreapp2.1\PermissionDesign.Model.pdb
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Model\bin\Debug\netcoreapp2.1\PermissionDesign.Model.deps.json
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Model\bin\Debug\netcoreapp2.1\PermissionDesign.Model.dll
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Model\bin\Debug\netcoreapp2.1\PermissionDesign.Model.pdb
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Model\obj\Debug\netcoreapp2.1\PermissionDesign.Model.csprojAssemblyReference.cache
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Model\obj\Debug\netcoreapp2.1\PermissionDesign.Model.csproj.CoreCompileInputs.cache
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Model\obj\Debug\netcoreapp2.1\PermissionDesign.Model.AssemblyInfoInputs.cache
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Model\obj\Debug\netcoreapp2.1\PermissionDesign.Model.AssemblyInfo.cs
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Model\obj\Debug\netcoreapp2.1\PermissionDesign.Model.dll
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Model\obj\Debug\netcoreapp2.1\PermissionDesign.Model.pdb

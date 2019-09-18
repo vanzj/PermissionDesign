@@ -26,3 +26,17 @@ F:\teaching\权限设计\Project\PermissionDesign\PermissionDesign.Service\obj\D
 F:\teaching\权限设计\Project\PermissionDesign\PermissionDesign.Service\obj\Debug\netcoreapp2.1\PermissionDesign.Service.csproj.CopyComplete
 F:\teaching\权限设计\Project\PermissionDesign\PermissionDesign.Service\obj\Debug\netcoreapp2.1\PermissionDesign.Service.dll
 F:\teaching\权限设计\Project\PermissionDesign\PermissionDesign.Service\obj\Debug\netcoreapp2.1\PermissionDesign.Service.pdb
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Service\bin\Debug\netcoreapp2.1\PermissionDesign.Service.deps.json
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Service\bin\Debug\netcoreapp2.1\PermissionDesign.Service.dll
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Service\bin\Debug\netcoreapp2.1\PermissionDesign.Service.pdb
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Service\bin\Debug\netcoreapp2.1\PermissionDesign.Model.dll
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Service\bin\Debug\netcoreapp2.1\PermissionDesign.Tool.dll
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Service\bin\Debug\netcoreapp2.1\PermissionDesign.Model.pdb
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Service\bin\Debug\netcoreapp2.1\PermissionDesign.Tool.pdb
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Service\obj\Debug\netcoreapp2.1\PermissionDesign.Service.csprojAssemblyReference.cache
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Service\obj\Debug\netcoreapp2.1\PermissionDesign.Service.csproj.CoreCompileInputs.cache
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Service\obj\Debug\netcoreapp2.1\PermissionDesign.Service.AssemblyInfoInputs.cache
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Service\obj\Debug\netcoreapp2.1\PermissionDesign.Service.AssemblyInfo.cs
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Service\obj\Debug\netcoreapp2.1\PermissionDesign.Service.csproj.CopyComplete
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Service\obj\Debug\netcoreapp2.1\PermissionDesign.Service.dll
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Service\obj\Debug\netcoreapp2.1\PermissionDesign.Service.pdb

@@ -1,0 +1,9 @@
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Model\bin\Debug\netcoreapp2.2\PermissionDesign.Model.deps.json
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Model\bin\Debug\netcoreapp2.2\PermissionDesign.Model.dll
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Model\bin\Debug\netcoreapp2.2\PermissionDesign.Model.pdb
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Model\obj\Debug\netcoreapp2.2\PermissionDesign.Model.csprojAssemblyReference.cache
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Model\obj\Debug\netcoreapp2.2\PermissionDesign.Model.csproj.CoreCompileInputs.cache
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Model\obj\Debug\netcoreapp2.2\PermissionDesign.Model.AssemblyInfoInputs.cache
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Model\obj\Debug\netcoreapp2.2\PermissionDesign.Model.AssemblyInfo.cs
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Model\obj\Debug\netcoreapp2.2\PermissionDesign.Model.dll
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Model\obj\Debug\netcoreapp2.2\PermissionDesign.Model.pdb
