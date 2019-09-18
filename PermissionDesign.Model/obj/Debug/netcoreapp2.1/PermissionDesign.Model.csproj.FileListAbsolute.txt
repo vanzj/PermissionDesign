@@ -1,0 +1,17 @@
+F:\teaching\权限设计\测试项目\PermissionDesign\PermissionDesign.Model\bin\Debug\netcoreapp2.1\PermissionDesign.Model.deps.json
+F:\teaching\权限设计\测试项目\PermissionDesign\PermissionDesign.Model\bin\Debug\netcoreapp2.1\PermissionDesign.Model.dll
+F:\teaching\权限设计\测试项目\PermissionDesign\PermissionDesign.Model\bin\Debug\netcoreapp2.1\PermissionDesign.Model.pdb
+F:\teaching\权限设计\测试项目\PermissionDesign\PermissionDesign.Model\obj\Debug\netcoreapp2.1\PermissionDesign.Model.csproj.CoreCompileInputs.cache
+F:\teaching\权限设计\测试项目\PermissionDesign\PermissionDesign.Model\obj\Debug\netcoreapp2.1\PermissionDesign.Model.AssemblyInfoInputs.cache
+F:\teaching\权限设计\测试项目\PermissionDesign\PermissionDesign.Model\obj\Debug\netcoreapp2.1\PermissionDesign.Model.AssemblyInfo.cs
+F:\teaching\权限设计\测试项目\PermissionDesign\PermissionDesign.Model\obj\Debug\netcoreapp2.1\PermissionDesign.Model.dll
+F:\teaching\权限设计\测试项目\PermissionDesign\PermissionDesign.Model\obj\Debug\netcoreapp2.1\PermissionDesign.Model.pdb
+F:\teaching\权限设计\测试项目\PermissionDesign\PermissionDesign.Model\obj\Debug\netcoreapp2.1\PermissionDesign.Model.csprojAssemblyReference.cache
+F:\teaching\权限设计\Project\PermissionDesign\PermissionDesign.Model\bin\Debug\netcoreapp2.1\PermissionDesign.Model.deps.json
+F:\teaching\权限设计\Project\PermissionDesign\PermissionDesign.Model\bin\Debug\netcoreapp2.1\PermissionDesign.Model.dll
+F:\teaching\权限设计\Project\PermissionDesign\PermissionDesign.Model\bin\Debug\netcoreapp2.1\PermissionDesign.Model.pdb
+F:\teaching\权限设计\Project\PermissionDesign\PermissionDesign.Model\obj\Debug\netcoreapp2.1\PermissionDesign.Model.csproj.CoreCompileInputs.cache
+F:\teaching\权限设计\Project\PermissionDesign\PermissionDesign.Model\obj\Debug\netcoreapp2.1\PermissionDesign.Model.AssemblyInfoInputs.cache
+F:\teaching\权限设计\Project\PermissionDesign\PermissionDesign.Model\obj\Debug\netcoreapp2.1\PermissionDesign.Model.AssemblyInfo.cs
+F:\teaching\权限设计\Project\PermissionDesign\PermissionDesign.Model\obj\Debug\netcoreapp2.1\PermissionDesign.Model.dll
+F:\teaching\权限设计\Project\PermissionDesign\PermissionDesign.Model\obj\Debug\netcoreapp2.1\PermissionDesign.Model.pdb

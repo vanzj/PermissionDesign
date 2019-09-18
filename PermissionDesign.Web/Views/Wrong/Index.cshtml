@@ -1,0 +1,39 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>系统错误</title>
+    <link href="/Content/css/bootstrap.min14ed.css?v=3.3.6" rel="stylesheet">
+    <link href="/Content/css/font-awesome.min93e3.css?v=4.4.0" rel="stylesheet">
+    <link href="/Content/css/animate.min.css" rel="stylesheet">
+    <link href="/Content/css/style.min862f.css?v=4.1.0" rel="stylesheet">
+    <script type="text/javascript">
+        var returnUrl = '@ViewData["returnUrl"]';
+        var time = 6;
+        function TmieUp() {
+            if (time <= 0) return;
+            if (time > 0) time = time - 1;
+            $("#timeLb").text(time);
+            if (time <= 0) {
+                window.location.href = returnUrl;
+            }
+        }
+        setInterval(TmieUp, 1000);
+    </script>
+</head>
+<body class="gray-bg">
+    <div class="middle-box text-center animated fadeInDown">
+        <h2 class="font-bold">@ViewData["wrongContent"]</h2>
+        <div class="error-desc">
+            <br /><label id="timeLb" style="font-size:x-large"></label>
+        </div>
+    </div>
+    <script src="/Content/js/jquery.min.js?v=2.1.4"></script>
+    <script src="/Content/js/bootstrap.min.js?v=3.3.6"></script>
+</body>
+</html>
+

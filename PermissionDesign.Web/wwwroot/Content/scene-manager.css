@@ -1,0 +1,203 @@
+﻿/*场景管理样式*/
+
+/*#region 添加设备 */
+
+.equip {
+    text-align: center;
+    cursor: pointer;
+}
+
+.equip > .equip-info {
+    margin: 5px auto;
+}
+
+.equip > .equip-info > span:nth-child(2) {
+    margin: 0 0 0 -10px;
+    padding-right: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 2em;
+}
+
+/*#endregion */
+
+
+/*#region 选择动作  步骤设备详情 */
+
+.choose-equips-box {
+    min-height: 100px;
+}
+
+.choose-equips-box > div {
+    margin: 10px auto;
+}
+
+ul.choose-equips, ul.scene-step-euqip {
+    text-align: center;
+}
+
+.choose-equips li span, ul.scene-step-euqip li span {
+    display: block;
+    cursor: pointer;
+    border: 1px dashed rgba(255,255,255,0.36);
+    padding: 3px 0;
+    margin: 3px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+/*#endregion */
+
+/*#region 场景步骤面板 */
+
+.scene-step-panel {
+    border: 1px dashed rgba(255,255,255,0.32);
+    width: 50%;
+    min-height: 50px;
+    max-height: 400px;
+    overflow: hidden;
+    margin: 20px 0;
+    text-align: center;
+    padding: 0 20px;
+    
+}
+
+.scene-step-panel .scene-step-arrows span {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.scene-step-panel .scene-step {
+    margin: 1.1em 0;
+    padding: 10px 5px;
+    cursor: pointer;
+    border: 1px dashed rgba(255,255,255,0);
+}
+
+.scene-step-panel .scene-step:hover {
+    border-color: rgba(255,255,255,0.33);
+}
+
+.scene-step-panel .scene-step:hover > span:nth-child(3) {
+    visibility: visible;
+}
+
+.scene-step-panel .scene-step > span:nth-child(1) {
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.scene-step-panel .scene-step > span:nth-child(3) {
+    visibility: hidden;
+}
+
+/*.scene-step-panel .scene-step-start > span:nth-child(2) {
+    color: rgba(255,255,255,0.66);
+}*/
+
+.scene-step-panel .scene-step-start, .scene-step-panel .scene-step-end {
+    margin: 0 auto;
+}
+
+.scene-step-panel .scene-step-start:hover, .scene-step-panel .scene-step-end:hover {
+    border-color: rgba(255,255,255,0);
+    cursor: default;
+}
+
+/*#region st-time */
+
+.st-time {
+    min-height: 200px;
+}
+
+.st-time .st-time-body {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.st-time .st-time-body .st-time-panel {
+    display: inline-block;
+    overflow: hidden;
+    height: 210px;
+}
+
+.st-time .st-time-body .st-time-panel > div {
+    height: 70px;
+    width: 70px;
+    margin: 0 30px;
+    border: 1px solid rgba(0,0,0,0);
+    border-radius: 50% !important;
+}
+
+.st-time .st-time-body .st-time-panel:hover {
+    text-shadow: 0 0 2px rgba(0,0,0,0.55);
+}
+
+.st-time .st-time-body .st-time-panel > div:nth-child(2) {
+    /*border-color: rgba(255,255,255,0.77) !important;*/
+    box-shadow: 0 0 1px rgba(0,0,0,0.89);
+    cursor: pointer !important;
+}
+
+.st-time .st-time-body .st-time-panel .st-time-cur:hover {
+    /*border-color: rgba(33,150,243,0.77) !important;*/
+    box-shadow: 0 0 5px rgba(33,150,243,0.99);
+    text-shadow: 0 0 2px rgba(0,0,0,1) !important;
+}
+
+.st-time .st-time-body .st-time-panel span {
+    color: rgba(0,0,0,0.2);
+    display: block;
+    line-height: 70px;
+    font-size: 1.6em;
+    text-align: center;
+}
+
+.st-time .st-time-body .st-time-panel .st-time-cur span {
+    color: rgba(0,0,0,0.77);
+    font-size: 1.5em;
+}
+
+/*#endregion */
+
+/*#region st-choose-icon */
+
+/*.st-choose-icon*/ .st-choose-icon-panel {
+                        min-height: 200px;
+                        max-height: 300px;
+                        margin: 10px auto 0;
+                        padding: 10px;
+                        border: 1px dashed rgba(255,255,255,0.33);
+                        text-align: center;
+                        overflow: hidden;
+                    }
+
+/*.st-choose-icon*/ .st-choose-icon-panel .col-md-2 > div {
+                        cursor: pointer;
+                    }
+
+/*.st-choose-icon*/ .st-choose-icon-panel .col-md-2 > div {
+                        margin: 10px auto;
+                    }
+
+/*.st-choose-icon*/ .st-choose-icon-panel .col-md-2 > div > div {
+                        margin: 7px;
+                    }
+
+/*.st-choose-icon*/ .st-choose-icon-panel .icon-panel-text span {
+                        display: block;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                    }
+
+/*#endregion */
+/*#endregion */
+
+body {
+}

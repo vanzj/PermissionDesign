@@ -1,0 +1,29 @@
+﻿/*用户管理*/
+/*#region 指派用户工位 */
+
+.station-box {
+    margin: 5px 0;
+    padding: 20px 15px;
+    cursor: pointer;
+}
+
+    .station-box > div {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 100%;
+        text-align: center;
+        line-height: 3em;
+        margin: 0;
+        padding: 0;
+        background-color: rgba(0,0,0,0.10);
+    }
+        .station-box > div:hover {
+            background-color: rgba(169, 68, 66, 0.35);
+            color: white;
+        }
+    .station-box .active {
+        background-color: #a94442 !important;
+        color: white;
+    }
+/*#endregion */
