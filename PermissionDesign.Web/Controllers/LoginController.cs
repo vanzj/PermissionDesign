@@ -75,7 +75,7 @@ namespace PermissionDesign.Web.Controllers
                 string[] arr = str.Split(new char[3] { '&', '&', '&' });
                 return Json(new { name = arr[0], password = arr[3] });
             }
-            return Json(new { name="",password=""})
+            return Json(new { name = "", password = "" });
         }
     }
 }
