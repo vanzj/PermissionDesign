@@ -28,5 +28,6 @@ namespace PermissionDesign.DAL
                 optionsBuilder.UseMySQL(_connection);
             }
         }
+        public virtual DbSet<User> User { get; set; }
     }
 }

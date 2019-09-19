@@ -14,7 +14,7 @@
         "outputPath": "C:\\Users\\fzj\\source\\repos\\PermissionDesign\\PermissionDesign.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
@@ -80,7 +80,7 @@
         "outputPath": "C:\\Users\\fzj\\source\\repos\\PermissionDesign\\PermissionDesign.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
@@ -134,7 +134,7 @@
         "outputPath": "C:\\Users\\fzj\\source\\repos\\PermissionDesign\\PermissionDesign.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
@@ -152,6 +152,9 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
+              "C:\\Users\\fzj\\source\\repos\\PermissionDesign\\PermissionDesign.DAL\\PermissionDesign.DAL.csproj": {
+                "projectPath": "C:\\Users\\fzj\\source\\repos\\PermissionDesign\\PermissionDesign.DAL\\PermissionDesign.DAL.csproj"
+              },
               "C:\\Users\\fzj\\source\\repos\\PermissionDesign\\PermissionDesign.Model\\PermissionDesign.Model.csproj": {
                 "projectPath": "C:\\Users\\fzj\\source\\repos\\PermissionDesign\\PermissionDesign.Model\\PermissionDesign.Model.csproj"
               },
@@ -195,7 +198,7 @@
         "outputPath": "C:\\Users\\fzj\\source\\repos\\PermissionDesign\\PermissionDesign.Tool\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
@@ -257,7 +260,7 @@
         "outputPath": "C:\\Users\\fzj\\source\\repos\\PermissionDesign\\PermissionDesign.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [

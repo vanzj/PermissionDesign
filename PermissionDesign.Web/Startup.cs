@@ -12,6 +12,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using PermissionDesign.DAL;
+using PermissionDesign.Service;
 
 namespace PermissionDesign.Web
 {
@@ -34,6 +35,10 @@ namespace PermissionDesign.Web
             });
             services.AddDbContext<Db>(options =>
               options.UseMySQL(Configuration.GetConnectionString("MySqlConnection")));//添加Mysql支持
+
+            services.AddTransient<ServiceBase>();
+            services.AddTransient<Db>();
+            services.AddTransient<LoginService>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
