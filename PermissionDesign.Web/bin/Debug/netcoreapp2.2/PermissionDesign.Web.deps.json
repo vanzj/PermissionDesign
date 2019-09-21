@@ -834,6 +834,7 @@
       },
       "PermissionDesign.Service/1.0.0": {
         "dependencies": {
+          "PermissionDesign.DAL": "1.0.0",
           "PermissionDesign.Model": "1.0.0",
           "PermissionDesign.Tool": "1.0.0"
         },

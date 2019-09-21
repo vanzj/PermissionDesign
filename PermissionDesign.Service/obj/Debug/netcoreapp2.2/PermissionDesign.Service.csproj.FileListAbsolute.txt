@@ -12,3 +12,5 @@ C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Service\obj\Debug\ne
 C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Service\obj\Debug\netcoreapp2.2\PermissionDesign.Service.csproj.CopyComplete
 C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Service\obj\Debug\netcoreapp2.2\PermissionDesign.Service.dll
 C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Service\obj\Debug\netcoreapp2.2\PermissionDesign.Service.pdb
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Service\bin\Debug\netcoreapp2.2\PermissionDesign.DAL.dll
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Service\bin\Debug\netcoreapp2.2\PermissionDesign.DAL.pdb
