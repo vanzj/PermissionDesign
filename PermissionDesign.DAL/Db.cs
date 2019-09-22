@@ -28,6 +28,9 @@ namespace PermissionDesign.DAL
                 optionsBuilder.UseMySQL(_connection);
             }
         }
-        public virtual DbSet<User> User { get; set; }
+        /// <summary>
+        ///  需要一个特性来和数据库的数据库名对应
+        /// </summary>
+        public virtual DbSet<User> user { get; set; }
     }
 }

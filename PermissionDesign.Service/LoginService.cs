@@ -20,7 +20,7 @@ namespace PermissionDesign.Service
         #region 查询用户是否存在
         public bool AccountExit(Expression<Func<User,bool>> where)
         {
-            return _dbContext.User.FirstOrDefault(where) != null;
+            return _dbContext.user.FirstOrDefault(where) != null;
         }
 
         #endregion
@@ -34,7 +34,7 @@ namespace PermissionDesign.Service
 
             // 用户 判断
 
-            var loginUser = _dbContext.User.FirstOrDefault(c => c.LoginAccount == accout);
+            var loginUser = _dbContext.user.FirstOrDefault(c => c.LoginAccount == accout);
             if (loginUser == null)
                 return new ResponseModel { code = 0, result = "Account isn't exit " };
             if (loginUser.IsEnabled == 0)
