@@ -10,6 +10,31 @@ document.onkeydown = function (e) {
     }
 }
 $(function () {
+   
+    $.ajax(
+        {
+            type: 'POST',
+            dataType: 'Json',
+            url: 'AutoLogin',
+            success: function (data) {
+                if (data.result == true) {
+                    if (data.dataType == "AutoLogin") {
+                        window.location.href = "/Index.html";
+                    }
+                    else if (data.dataType == "remember") {
+                        $('#username').val(data.data.name);
+                        $('#password').val(data.data.pw);
+                    }
+                }
+                else {
+                    show_err_msg(data.data)
+                }
+        
+            }
+        }
+    );
+
+
     //login
     $("#submit_btn").click(function () {
         if ($("#username").val() == '') {
@@ -30,7 +55,6 @@ $(function () {
                     data: $('#login_form').serialize(),
                     success: function (data) {
                         if (data.result == true) {
-                            alert("chenggong")
                             window.location.href = "/Index.html";
                         }
                         else {

@@ -34,6 +34,7 @@ namespace PermissionDesign.Model
         /// </summary>
         [Description("LogingName")]
         LogingNameKey,
-        
+        [Description("IsRememberPass")]
+        IsRememberPassKey,
     }
-}
+}   

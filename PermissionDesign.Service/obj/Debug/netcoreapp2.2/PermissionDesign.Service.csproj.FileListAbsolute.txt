@@ -1,8 +1,10 @@
 C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Service\bin\Debug\netcoreapp2.2\PermissionDesign.Service.deps.json
 C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Service\bin\Debug\netcoreapp2.2\PermissionDesign.Service.dll
 C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Service\bin\Debug\netcoreapp2.2\PermissionDesign.Service.pdb
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Service\bin\Debug\netcoreapp2.2\PermissionDesign.DAL.dll
 C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Service\bin\Debug\netcoreapp2.2\PermissionDesign.Model.dll
 C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Service\bin\Debug\netcoreapp2.2\PermissionDesign.Tool.dll
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Service\bin\Debug\netcoreapp2.2\PermissionDesign.DAL.pdb
 C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Service\bin\Debug\netcoreapp2.2\PermissionDesign.Model.pdb
 C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Service\bin\Debug\netcoreapp2.2\PermissionDesign.Tool.pdb
 C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Service\obj\Debug\netcoreapp2.2\PermissionDesign.Service.csprojAssemblyReference.cache
@@ -12,5 +14,3 @@ C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Service\obj\Debug\ne
 C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Service\obj\Debug\netcoreapp2.2\PermissionDesign.Service.csproj.CopyComplete
 C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Service\obj\Debug\netcoreapp2.2\PermissionDesign.Service.dll
 C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Service\obj\Debug\netcoreapp2.2\PermissionDesign.Service.pdb
-C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Service\bin\Debug\netcoreapp2.2\PermissionDesign.DAL.dll
-C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Service\bin\Debug\netcoreapp2.2\PermissionDesign.DAL.pdb

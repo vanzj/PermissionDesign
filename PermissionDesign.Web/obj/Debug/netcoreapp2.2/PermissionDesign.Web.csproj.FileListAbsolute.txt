@@ -1,9 +1,3 @@
-C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Web\obj\Debug\netcoreapp2.2\PermissionDesign.Web.csprojAssemblyReference.cache
-C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Web\obj\Debug\netcoreapp2.2\PermissionDesign.Web.csproj.CoreCompileInputs.cache
-C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Web\obj\Debug\netcoreapp2.2\PermissionDesign.Web.RazorAssemblyInfo.cache
-C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Web\obj\Debug\netcoreapp2.2\PermissionDesign.Web.RazorAssemblyInfo.cs
-C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Web\obj\Debug\netcoreapp2.2\PermissionDesign.Web.AssemblyInfoInputs.cache
-C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Web\obj\Debug\netcoreapp2.2\PermissionDesign.Web.AssemblyInfo.cs
 C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Web\bin\Debug\netcoreapp2.2\PermissionDesign.Web.deps.json
 C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Web\bin\Debug\netcoreapp2.2\PermissionDesign.Web.runtimeconfig.json
 C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Web\bin\Debug\netcoreapp2.2\PermissionDesign.Web.runtimeconfig.dev.json
@@ -19,6 +13,12 @@ C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Web\bin\Debug\netcor
 C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Web\bin\Debug\netcoreapp2.2\PermissionDesign.Model.pdb
 C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Web\bin\Debug\netcoreapp2.2\PermissionDesign.Service.pdb
 C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Web\bin\Debug\netcoreapp2.2\PermissionDesign.Tool.pdb
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Web\obj\Debug\netcoreapp2.2\PermissionDesign.Web.csprojAssemblyReference.cache
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Web\obj\Debug\netcoreapp2.2\PermissionDesign.Web.csproj.CoreCompileInputs.cache
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Web\obj\Debug\netcoreapp2.2\PermissionDesign.Web.RazorAssemblyInfo.cache
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Web\obj\Debug\netcoreapp2.2\PermissionDesign.Web.RazorAssemblyInfo.cs
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Web\obj\Debug\netcoreapp2.2\PermissionDesign.Web.AssemblyInfoInputs.cache
+C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Web\obj\Debug\netcoreapp2.2\PermissionDesign.Web.AssemblyInfo.cs
 C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Web\obj\Debug\netcoreapp2.2\PermissionDesign.Web.TagHelpers.input.cache
 C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Web\obj\Debug\netcoreapp2.2\PermissionDesign.Web.TagHelpers.output.cache
 C:\Users\fzj\source\repos\PermissionDesign\PermissionDesign.Web\obj\Debug\netcoreapp2.2\PermissionDesign.Web.RazorCoreGenerate.cache
