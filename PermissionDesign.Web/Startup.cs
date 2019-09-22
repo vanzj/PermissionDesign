@@ -34,7 +34,8 @@ namespace PermissionDesign.Web
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
             services.AddDbContext<Db>(options =>
-              options.UseMySQL(Configuration.GetConnectionString("MySqlConnection")));//添加Mysql支持
+              options.UseMySQL(Configuration.GetConnectionString("MySqlConnection")));
+            //添加Mysql支持
 
             services.AddTransient<ServiceBase>();
             services.AddTransient<Db>();
