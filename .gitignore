@@ -3,5 +3,5 @@
 ################################################################################
 
 /.vs
-/appsettings.json
+/PermissionDesign.Web/appsettings.json
 /.git
