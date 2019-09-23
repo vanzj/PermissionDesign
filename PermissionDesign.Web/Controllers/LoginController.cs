@@ -66,11 +66,6 @@ namespace PermissionDesign.Web.Controllers
         public JsonResult LoginOut()
         {
             CookieHelper.SingleTon().SetCookie(EnumHelper.SingleTon().GetEnumDescription(EnumConfig.IsLoginCookieKey), "0", Request, Response);
-            CookieHelper.SingleTon().ClearCookie(EnumHelper.SingleTon().GetEnumDescription(EnumConfig.LoginCookieKey), Request, Response);
-            CookieHelper.SingleTon().ClearCookie(EnumHelper.SingleTon().GetEnumDescription(EnumConfig.LoginAccountKey), Request, Response);
-            CookieHelper.SingleTon().ClearCookie(EnumHelper.SingleTon().GetEnumDescription(EnumConfig.LogingRoleIdKey), Request, Response);
-            CookieHelper.SingleTon().ClearCookie(EnumHelper.SingleTon().GetEnumDescription(EnumConfig.LogingNameKey), Request, Response);
-
             return Json("true");
         }
         [HttpPost]
@@ -115,7 +110,7 @@ namespace PermissionDesign.Web.Controllers
                 if (!string.IsNullOrEmpty(str))
                 {
                     string[] arr = str.Split(new char[3] { '&', '&', '&' });
-                    if (!_loginService.AccountExit(c => c.LoginAccount == arr[0]))
+                    if (_loginService.AccountExit(c => c.LoginAccount == arr[0]))
                         return Json(new { result = true, data = new { name = arr[0], pw = arr[3] }, dataType = "remember" });
                 }
                 return Json(new { result = true, data = new { name = "", pw = "" }, dataType = "remember" });

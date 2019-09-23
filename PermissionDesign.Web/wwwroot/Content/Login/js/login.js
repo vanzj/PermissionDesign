@@ -24,10 +24,18 @@ $(function () {
                     else if (data.dataType == "remember") {
                         $('#username').val(data.data.name);
                         $('#password').val(data.data.pw);
+                        $("input[id='j_remember']").attr("checked", true );
+
                     }
                 }
                 else {
-                    show_err_msg(data.data)
+                    if (data.dataType == "null") {
+
+                    }
+                    else {
+                        show_err_msg(data.data);
+                    }
+             
                 }
         
             }

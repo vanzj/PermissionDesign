@@ -4,10 +4,10 @@
         {
             type: 'POST',
             dataType: 'Json',
-            url: '\Login\GetIsLoging',
+            url: '/Login/GetIsLoging',
             success: function (data) {
                 if (data != "1") {
-                    window.location.href = "/Login/index.html";
+                    window.location.href = "/Login/Index";
                 }
             }
         }
@@ -19,28 +19,28 @@
             {
                 type: 'POST',
                 dataType: 'Json',
-                url: 'LoginOut',
+                url: '/Login/LoginOut',
                 success: function (data) {
-
+                    if (data == "true") {
+                        window.location.href = "/Login/Index";
+                                }
                 }
             }
         );
     })
     //更新登录状态
-    $(function () {
-        /* 鼠标移动事件 */
-        $(document).mouseup(function () {
-            $.ajax(
-                {
-                    type: 'POST',
-                    dataType: 'Json',
-                    url: 'UpdateIsLoging',
-                    success: function (data) {
 
-                    }
+    $(document).mouseup(function () {
+        $.ajax(
+            {
+                type: 'POST',
+                dataType: 'Json',
+                url: '/Login/UpdateIsLoging',
+                success: function (data) {
+
                 }
-            );
-        });
+            }
+        );
     });
+});
 
-})
