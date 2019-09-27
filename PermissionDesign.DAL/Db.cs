@@ -25,7 +25,7 @@ namespace PermissionDesign.DAL
             base.OnConfiguring(optionsBuilder);
             if (!string.IsNullOrWhiteSpace(_connection))
             {
-                optionsBuilder.UseMySQL(_connection);
+                optionsBuilder.UseMySql(_connection);
             }
         }
         /// <summary>
