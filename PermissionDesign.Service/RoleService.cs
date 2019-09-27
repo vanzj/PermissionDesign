@@ -37,7 +37,7 @@ namespace PermissionDesign.Service
         }
 
 
-        public ResponseModel GetRolesByPage(out int total,int pageStart,int pageSize,int pageCount,List<Expression<Func<Role, bool>>> wheres)
+        public ResponseModel GetRolesByPage(List<Expression<Func<Role, bool>>> wheres,out int total,int pageStart=0,int pageSize=10,int pageCount=1)
         {
             total = 0;
             var templist = _dbContext.role.Where(c=>true); ;
