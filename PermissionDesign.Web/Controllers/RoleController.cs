@@ -46,11 +46,11 @@ namespace PermissionDesign.Web.Controllers
             if (startTime != null)
             {
              
-                wheres.Add(c => startTime <= c.AddDate);
+                wheres.Add(c => c.AddDate >=  startTime);
             }
             if (endTime != null)
             {
-                wheres.Add(c => endTime >= c.AddDate);
+                wheres.Add(c => c.AddDate <= endTime );
             }
        var result =     _roleService.GetRolesByPage(wheres, out total, 0, pageSize, pageCount);
             if (result.code == 200)

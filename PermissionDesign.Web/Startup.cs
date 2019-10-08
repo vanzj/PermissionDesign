@@ -44,7 +44,7 @@ namespace PermissionDesign.Web
             services.AddTransient<ServiceBase>();
             services.AddTransient<Db>();
             services.AddTransient<LoginService>();
-
+            services.AddTransient<RoleService>();
             //services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0); // .net2.2
             services.AddControllers().SetCompatibilityVersion(CompatibilityVersion.Version_3_0); // .net3.0
         }

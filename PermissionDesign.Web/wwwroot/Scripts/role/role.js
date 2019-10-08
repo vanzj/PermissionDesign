@@ -12,8 +12,8 @@ var TableInit = function () {
     var myTableInit = new Object();
     //初始化Table
     myTableInit.Init = function () {
-        $('#').bootstrapTable({
-            url: '\Role\GetRolesByPage',         //请求后台的URL（*）
+        $('#tb_role').bootstrapTable({
+            url: '/Role/GetRolesByPage',         //请求后台的URL（*）
             method: 'get',                      //请求方式（*）
             toolbar: '#toolbar',                //工具按钮用哪个容器
             striped: true,                      //是否显示行间隔色
@@ -38,22 +38,24 @@ var TableInit = function () {
             detailView: false,                   //是否显示父子表
             columns: [
                 { radio: 'true' },
-                { Filed: 'id', title: "编号" },
-                { Filed: 'roleEncoding', title: "角色编码" },
-                { Filed: 'roleName', title: "角色名称" },
-                { Filed: 'roleDesc', title: "角色描述" },
-                { Filed: 'addDate', title: "添加时间" },
-                { Filed: 'remark', title: "备注" }
-               ]
-        });
+                { field: 'id', title: "编号" },
+                { field: 'roleName', title: "角色名称" },
+                { field: 'roleEncoding', title: "角色编码" },
+                { field: 'roleDesc', title: "角色描述" },
+                { field: 'addDate', title: "添加时间" },
+                { field: 'remark', title: "备注" }
+            ]
+        }); 
         $('#tb_role').bootstrapTable("hideColumn", 'id');
-    };
+    }; 
     //得到查询的参数
     myTableInit.queryParams = function (params) {
         var temp = {   //这里的键的名字和控制器的变量名必须一直，这边改动，控制器也需要改成一样的
-            pageSize = params.pageSize,
-            pageCount = params.pageNumber,
-            search_des:$()
+            pageSize : params.pageSize,
+            pageCount : params.pageNumber,
+            search_des: $('#search_des').val(),
+            startTime: $('#search_start').val(),
+            endTime: $('#search_end').val()
         };
         return temp;
     };
@@ -64,7 +66,9 @@ var ButtonInit = function () {
     //初始化数据
     oInit.Init = function () {
       
-
+        $('#btn_query').click(function () {
+            $('#tb_role').bootstrapTable("refresh");
+        })
     };
     return oInit;
 };

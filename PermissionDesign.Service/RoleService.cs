@@ -40,12 +40,12 @@ namespace PermissionDesign.Service
         public ResponseModel GetRolesByPage(List<Expression<Func<Role, bool>>> wheres,out int total,int pageStart=0,int pageSize=10,int pageCount=1)
         {
             total = 0;
-            var templist = _dbContext.role.Where(c=>true); ;
+            var templist = _dbContext.role.Where(c=>true); 
             foreach (var where in wheres)
             {
-                templist = _dbContext.role.Where(where);
+                templist = templist.Where(where);
             }
-            templist = templist.Skip((pageStart - 1) * pageSize).Take(pageCount * pageSize);
+            templist = templist.Skip((pageStart - 0) * pageSize).Take(pageCount * pageSize);
             total = templist.Count(); 
             ResponseModel response = new ResponseModel();
             response.code = 200;
