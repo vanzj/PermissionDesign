@@ -99,5 +99,22 @@ namespace PermissionDesign.Service
             return  new ResponseModel(){code = 0,data = "Failed"};
         }
 
+
+        public ResponseModel EditRole(Request_EditRole role)
+        {
+            if (ExistsRole(c=>c.Id== role.Id).code !=200)
+                return  new ResponseModel(){code = 2,result = "角色不存在"};
+            var temp = _dbContext.role.Find(role.Id);
+            temp.RoleName = role.RoleName;
+            temp.Remark = role.Remark;
+            temp.RoleDesc = role.RoleDesc;
+            _dbContext.role.Update(temp);
+            int i = _dbContext.SaveChanges();
+            if (i!=1)
+            {
+                return  new ResponseModel(){code = 0,data = "角色不存在"};
+            }
+            return  new ResponseModel(){code =  200};
+        }
     }
 }
