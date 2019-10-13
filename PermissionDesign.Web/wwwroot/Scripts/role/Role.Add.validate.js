@@ -29,13 +29,13 @@ $().ready(function () {
                     url: "/Role/ExistsRoleName",
                     async: false,
                     data: {
-                        roleName: function() {
+                        RoleName: function() {
                             return $("#RoleName").val();
                         }
                     },
                     dataType: "Json",
                     dataFilter: function(data) {
-                        if (data) {
+                        if (data === "true") {
                             return false;
                         }
                         return true;
@@ -51,13 +51,13 @@ $().ready(function () {
                     url: "/Role/ExistsRoleEncoding",
                     async: false,
                     data: {
-                        roleName: function () {
+                        RoleEncoding: function () {
                             return $("#RoleEncoding").val();
                         }
                     },
                     dataType: "Json",
                     dataFilter: function (data) {
-                        if (data) {
+                        if (data === "true") {
                             return false;
                         }
                         return true;

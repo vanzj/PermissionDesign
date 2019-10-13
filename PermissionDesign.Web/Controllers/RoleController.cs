@@ -66,8 +66,8 @@ namespace PermissionDesign.Web.Controllers
         /// <returns></returns>
         public JsonResult ExistsRoleName(string roleName, int id = 0)
         {
-            var temp = _roleService.ExistsRole(c => c.RoleName != roleName && c.Id == id);
-            return Json(temp);
+            var temp = _roleService.ExistsRole(c => c.RoleName == roleName && c.Id != id);
+            return Json(temp.code == 200);
         }
         /// <summary>
         /// 角色编码是否存在
@@ -77,7 +77,7 @@ namespace PermissionDesign.Web.Controllers
         public JsonResult ExistsRoleEncoding(string roleEncoding)
         {
             var temp = _roleService.ExistsRole(c => c.RoleEncoding == roleEncoding);
-            return Json(temp);
+            return Json(temp.code==200);
         }
         /// <summary>
         /// 添加角色
@@ -87,7 +87,7 @@ namespace PermissionDesign.Web.Controllers
         public ActionResult AddRole(Request_AddRole role)
         {
             ResponseModel response = _roleService.AddRole(role);
-            if (response.code ==200)
+            if (response.code !=200)
             {
                 Response.Redirect("/Wrong/Index?wrongContent=" + response.result+"&returnUrl="+"/Role/Index");
                 return null;
