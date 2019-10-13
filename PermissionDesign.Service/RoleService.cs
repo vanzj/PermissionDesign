@@ -1,8 +1,10 @@
 ﻿using PermissionDesign.DAL;
 using PermissionDesign.Model.Entity;
+using PermissionDesign.Model.Request;
 using PermissionDesign.Model.Response;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
@@ -64,7 +66,38 @@ namespace PermissionDesign.Service
             }
             return response;
         }
-        
+        /// <summary>
+        /// 查询角色是否存在服务
+        /// </summary>
+        /// <param name="where"></param>
+        /// <returns></returns>
+        public ResponseModel ExistsRole(Expression<Func<Role, bool>> where)
+        {
+            if (_dbContext.role.FirstOrDefault(where) != null)
+                return new ResponseModel() { code =200};   
+            return new ResponseModel() { code = 0, data ="角色不存在"};
+        }
+        /// <summary>
+        /// 添加角色
+        /// </summary>
+        /// <param name="role"></param>
+        /// <returns></returns>
+        public ResponseModel AddRole(Request_AddRole role)
+        {
+            Role _role = new Role()
+            {
+                Remark =  role.Remark,
+                RoleDesc =  role.RoleDesc,
+                RoleEncoding = role.RoleEncoding,
+                RoleName =  role.RoleName
+            };
+            _dbContext.role.Add(_role);
+            int i = _dbContext.SaveChanges();
+
+            if (i==1)
+                return new ResponseModel(){code = 200,data = "Success"};
+            return  new ResponseModel(){code = 0,data = "Failed"};
+        }
 
     }
 }
