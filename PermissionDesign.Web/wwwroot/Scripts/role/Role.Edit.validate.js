@@ -24,7 +24,24 @@ $().ready(function () {
                 minlength: 2,
                 maxlength: 40,
                 remote: {
-                    
+                    type: "get",
+                    url: "/Role/ExistsRoleName",
+                    async: false,
+                    data: {
+                        roleName: function() {
+                            return $("#editRoleName").val();
+                        },
+                        id: function () {
+                            return $("#editId").val();
+                        }
+                    },
+                    dataType: "Json",
+                    dataFilter: function (data) {
+                        if (data === "true") {
+                            return false;
+                        }
+                        return true;
+                    } 
                 }
             }
         },
@@ -33,7 +50,7 @@ $().ready(function () {
                 required: e + "请输入角色名称",
                 minlength: e + "角色名称必须2个字符以上",
                 maxlength: e + "角色名称长度超过限制",
-                remote: ""
+                remote: "角色已存在"
             }
         }
     })

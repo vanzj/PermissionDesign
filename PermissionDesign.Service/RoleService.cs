@@ -102,12 +102,12 @@ namespace PermissionDesign.Service
 
         public ResponseModel EditRole(Request_EditRole role)
         {
-            if (ExistsRole(c=>c.Id== role.Id).code !=200)
-                return  new ResponseModel(){code = 2,result = "角色不存在"};
-            var temp = _dbContext.role.Find(role.Id);
-            temp.RoleName = role.RoleName;
-            temp.Remark = role.Remark;
-            temp.RoleDesc = role.RoleDesc;
+            if (ExistsRole(c=>c.Id== role.EditId).code !=200)
+                return  new ResponseModel(){code = 200,result = "角色不存在"};
+            var temp = _dbContext.role.Find(role.EditId);
+            temp.RoleName = role.EditRoleName;
+            temp.Remark = role.EditRemark;
+            temp.RoleDesc = role.EditRoleDesc;
             _dbContext.role.Update(temp);
             int i = _dbContext.SaveChanges();
             if (i!=1)

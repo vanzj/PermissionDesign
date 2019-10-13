@@ -6,9 +6,9 @@ namespace PermissionDesign.Model.Request
 {
    public class Request_EditRole
     {
-        public int Id { get; set; }
-        public string RoleName { get; set; }
-        public string RoleDesc { get; set; }
-        public string Remark { get; set; }
+        public int EditId { get; set; }
+        public string EditRoleName { get; set; }
+        public string EditRoleDesc { get; set; }
+        public string EditRemark { get; set; }
     }
 }

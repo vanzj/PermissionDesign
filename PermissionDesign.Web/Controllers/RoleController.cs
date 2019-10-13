@@ -96,5 +96,16 @@ namespace PermissionDesign.Web.Controllers
             return View("Index");
         }
 
+        public ActionResult EditRole(Request_EditRole role)
+        {
+            var response = _roleService.EditRole(role);
+            if (response.code != 200)
+            {
+                Response.Redirect("/Wrong/Index?wrongContent=" + response.result + "&returnUrl=" + "/Role/Index");
+                return null;
+            }
+            return View("Index");
+        }
+
     }
 }

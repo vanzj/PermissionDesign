@@ -76,6 +76,20 @@ var ButtonInit = function () {
             $("#Remark").val("");
             $("#addBox").modal("show");
             Reset();
+        }); $("#btn_edit").click(function () {
+
+
+            var row = $("#tb_role").bootstrapTable("getSelections");
+            if (row.length!=1) {
+                swal("错误", "请选中一行数据", "error");
+                return;
+            }
+
+            currentRow = row[0];
+            SetEditWindowContent(currentRow);
+            EditReset();
+            $("#editBox").modal("show");
+            
         });
     };
     return oInit;
@@ -116,4 +130,12 @@ Date.prototype.Format = function (fmt) { //author: wangf
     for (var k in o)
         if (new RegExp("(" + k + ")").test(fmt)) fmt = fmt.replace(RegExp.$1, (RegExp.$1.length == 1) ? (o[k]) : (("00" + o[k]).substr(("" + o[k]).length)));
     return fmt;
+}
+
+function SetEditWindowContent(currentRow) {
+
+    $("#editId").val(currentRow.id);
+    $("#editRoleName").val(currentRow.roleName);
+    $("#editRoleDesc").val(currentRow.roleDesc);
+    $("#editRemark").val(currentRow.remark);
 }
