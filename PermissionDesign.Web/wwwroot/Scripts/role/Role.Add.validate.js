@@ -25,7 +25,21 @@ $().ready(function () {
                 minlength: 2,
                 maxlength: 40,
                 remote: {
-                    
+                    type: "get",
+                    url: "/Role/ExistsRoleName",
+                    async: false,
+                    data: {
+                        roleName: function() {
+                            return $("#RoleName").val();
+                        }
+                    },
+                    dataType: "Json",
+                    dataFilter: function(data) {
+                        if (data) {
+                            return false;
+                        }
+                        return true;
+                    } 
                 }
             },
             RoleEncoding: {
@@ -33,7 +47,21 @@ $().ready(function () {
                 minlength: 2,
                 maxlength: 25,
                 remote: {
-                    
+                    type: "get",
+                    url: "/Role/ExistsRoleEncoding",
+                    async: false,
+                    data: {
+                        roleName: function () {
+                            return $("#RoleEncoding").val();
+                        }
+                    },
+                    dataType: "Json",
+                    dataFilter: function (data) {
+                        if (data) {
+                            return false;
+                        }
+                        return true;
+                    } 
                 }
             }
         },
@@ -42,13 +70,13 @@ $().ready(function () {
                 required: e + "请输入角色名称",
                 minlength: e + "角色名称必须2个字符以上",
                 maxlength: e + "角色名称长度超过限制",
-                remote: ""
+                remote: "角色名称已存在"
             },
             RoleEncoding: {
                 required: e + "请输入角色识别码",
                 minlength: e + "角色识别码必须2个字符以上",
                 maxlength: e + "角色识别码长度超过限制",
-                remote: ""
+                remote: "角色识别码已存在"
             }
         }
     })

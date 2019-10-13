@@ -65,10 +65,18 @@ var ButtonInit = function () {
     var oInit = new Object();
     //初始化数据
     oInit.Init = function () {
-      
-        $('#btn_query').click(function () {
-            $('#tb_role').bootstrapTable("refresh");
-        })
+
+        $("#btn_query").click(function() {
+            $("#tb_role").bootstrapTable("refresh");
+        });
+        $("#btn_add").click(function() {
+            $("#RoleName").val("");
+            $("#RoleEncoding").val("");
+            $("#RoleDesc").val("");
+            $("#Remark").val("");
+            $("#addBox").modal("show");
+            Reset();
+        });
     };
     return oInit;
 };
